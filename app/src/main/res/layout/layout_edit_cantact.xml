@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/closeAlert"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_gravity="right"
+        android:layout_margin="10sp"
+        android:background="@drawable/ic_baseline_close_24"/>
+
+
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_margin="10sp"
+        android:inputType="textCapCharacters"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name" />
+
+    <EditText
+        android:id="@+id/userMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:hint="Enter Your Number" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:text="Update Contact"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
